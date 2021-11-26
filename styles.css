@@ -2,9 +2,36 @@
     margin-top: 48px;
 }
 
+.col-7 p{
+    margin: 2px inherit;
+}
+
+
 .btn-primary{
     width: 100%;
     border-radius: 25px;
+}
+
+.btn-dark{
+    font-size: 0.75rem;
+    padding: 6px 8px; 
+}
+
+
+.menu_buttons:hover{
+    background-color: lightgray;
+}
+
+.link-primary{
+    color: blue;
+    text-decoration: none;
+    font-size: 0.75rem;
+}
+
+.medium{
+    font-size: 1rem;
+    font-family: inherit;
+    margin: 2px;
 }
 
 
@@ -12,19 +39,12 @@
     margin: 8px 0;
 }
 
+
 .slim{
-    font-size: 0.5rem;
-    font-weight: lighter;
+    font-size: 0.75rem;
+    font-family: inherit;
+    margin: 4px;
 }
-
-.trends{
-    background-color: rgba(206, 201, 201, 0.411);
-    border-radius: 24px;
-    padding: 5px;
-    width: 100%;
-
-}
-
 
 .squirell, .menu_buttons{
     border-radius: 24px;
@@ -34,9 +54,21 @@
 
 }
 
-.menu_buttons:hover{
-    background-color: lightgray;
+.trends, .whoFollow{
+    background-color: rgba(126, 126, 126, 0.205);
+    border-radius: 24px;
+    padding: 5px;
+    width: 100%;
+    margin: 16px auto;
+
 }
+
+.whoFollow{
+    padding: 2px;
+
+}
+
+
 
 #menu_MobButton{
     border-radius: 8px;
