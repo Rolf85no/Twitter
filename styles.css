@@ -1,0 +1,100 @@
+.container{
+    margin-top: 48px;
+}
+
+.btn-primary{
+    width: 100%;
+    border-radius: 25px;
+}
+
+
+.row{
+    margin: 8px 0;
+}
+
+.slim{
+    font-size: 0.5rem;
+    font-weight: lighter;
+}
+
+.trends{
+    background-color: rgba(206, 201, 201, 0.411);
+    border-radius: 24px;
+    padding: 5px;
+    width: 100%;
+
+}
+
+
+.squirell, .menu_buttons{
+    border-radius: 24px;
+    border-color: transparent;
+    background-color: transparent;
+    width: 100%;
+
+}
+
+.menu_buttons:hover{
+    background-color: lightgray;
+}
+
+#menu_MobButton{
+    border-radius: 8px;
+    width: 100%;
+    display: none;
+}
+
+#selfp{
+    height: 48px;
+    border-radius: 24px;
+}
+
+#searchbar{
+    border-radius: 24px;
+    background-color: rgba(211, 211, 211, 0.247);
+}
+
+
+#what{
+    border-radius: 24px;
+}
+
+
+@media screen and (max-width: 768px) {
+   #right_side{
+       display:none;
+   }
+
+   #menu .col-9, #menu_tweet{
+    display:none;
+   }
+
+   #feeden{
+       width: 85%;
+   }
+
+   #feeden .col-9{
+       width: 85%;
+   }
+
+   #feeden .col-3{
+       width: 15%;
+   }
+
+   #menu{
+       width: 15%;
+   }
+
+   #menu_MobButton{
+    display: block;
+}
+
+
+   .menu_buttons, .squirell{
+       width: 100%;
+       border-radius: 8px;
+       
+   }
+
+  }
+
