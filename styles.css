@@ -1,3 +1,18 @@
+hr{
+    opacity: 0;
+}
+
+.btn-primary{
+    width: 100%;
+    border-radius: 1.5em;
+}
+
+.btn-dark{
+    font-size: 0.75rem;
+    padding: 0.4em 0.5em; 
+}
+
+
 .container{
     margin-top: 48px;
 }
@@ -7,16 +22,11 @@
 }
 
 
-.btn-primary{
-    width: 100%;
-    border-radius: 25px;
-}
-
-.btn-dark{
+.feed_text{
     font-size: 0.75rem;
-    padding: 6px 8px; 
+    font-family: inherit;
+    white-space:pre-line;
 }
-
 
 .menu_buttons:hover{
     background-color: lightgray;
@@ -31,7 +41,19 @@
 .medium{
     font-size: 1rem;
     font-family: inherit;
-    margin: 2px;
+    margin: 0 0.25em;
+    display: inline-block;
+}
+
+.photos{
+    max-width: 52px;
+    height: 48px;
+    border-radius: 24px;
+}
+
+.prikker{
+    float:right;
+    height: 2em;
 }
 
 
@@ -43,7 +65,7 @@
 .slim{
     font-size: 0.75rem;
     font-family: inherit;
-    margin: 4px;
+    margin: 0 0.25em;
 }
 
 .squirell, .menu_buttons{
@@ -59,7 +81,7 @@
     border-radius: 24px;
     padding: 5px;
     width: 100%;
-    margin: 16px auto;
+    margin: 1em auto;
 
 }
 
@@ -68,7 +90,18 @@
 
 }
 
+#feed_filler{
+    margin-right: 3em;
+}
 
+#feed_tweet{
+    width: 100%;
+    font-family: inherit;
+}
+
+#feeden .col-1{
+    margin-left: 0.5em;
+}
 
 #menu_MobButton{
     border-radius: 8px;
@@ -76,10 +109,7 @@
     display: none;
 }
 
-#selfp{
-    height: 48px;
-    border-radius: 24px;
-}
+
 
 #searchbar{
     border-radius: 24px;
@@ -101,6 +131,7 @@
     display:none;
    }
 
+
    #feeden{
        width: 85%;
    }
@@ -112,6 +143,11 @@
    #feeden .col-3{
        width: 15%;
    }
+
+   #feed_filler{
+    margin-right: 0;
+}
+   
 
    #menu{
        width: 15%;
@@ -127,6 +163,26 @@
        border-radius: 8px;
        
    }
+
+  }
+
+  @media screen and (max-width: 992px){
+    #right_side{
+        display:none;
+    }
+
+    #feeden .col-9{
+        width: 85%;
+    }
+ 
+    #feeden .col-3{
+        width: 15%;
+    }
+   
+    #feeden{
+        width: 75%;
+    }
+
 
   }
 
